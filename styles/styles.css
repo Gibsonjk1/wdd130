@@ -45,6 +45,7 @@ main {
 }
 
 aside{
+    display: block;
     width: 205px;
     text-align: center;
     position: relative;
@@ -53,8 +54,10 @@ aside{
 }
 
 aside img {
-    width: 200px;
+    width: 100%;
     height: auto;
+    position: relative;
+    padding: 2px;
 }
 
 aside h2 {
