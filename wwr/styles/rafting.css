@@ -60,7 +60,7 @@
 
   p {
     font-family: var(--paragraph-font);
-    color: var(--secondary-color);
+    color: var(--accent1-color);
     margin: 0;
     padding: 0;
   }
