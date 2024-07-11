@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@100..900&display=swap');
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+form {
+    width: 450px;
+    margin: 0 auto;
+    padding: 5px;
+    border: 1px solid black;
+    border-radius: 1%;
+    background-color: #f2ebdf;
+    display: grid;
+    position: relative;
+}
+
+button {
+    width: 40%;
+    height: 2rem;
+    margin: auto;
+    background-color: #01204E;
+    color: aliceblue;
+    border: none;
+
+}
+
+button:hover {
+    background-color: #028391;
+}
+
+.input {
+    margin: 20px 5px;
+    display: grid;
+
+}
+
+label {
+    margin: 2px;
+}
