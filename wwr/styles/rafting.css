@@ -18,7 +18,6 @@
     --nav-hover-link-color: #FFFFFF;
     --nav-hover-background-color: #FFFFFF;
   }
-
   header {
     display: grid;
     margin: 1rem auto;
@@ -52,12 +51,6 @@
     font-family: var(--heading-font);
     color: black;
     text-align: center;
-    /* position: absolute;
-    top: 0px;
-    left: 30%;
-    right: 30%; */
-    
-
   }
 
   p {
@@ -336,4 +329,101 @@ tr:nth-child(even) {
 
 .details h2 {
   text-align: center;
+}
+
+.index_head {
+  background-image: url("../images/RaftingHeadIMG.jpg");
+  background-position: center;
+  background-repeat: none;
+  background-size: cover;
+  width: 100%;
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.index_head h1 {
+  color: white;
+  -webkit-text-stroke: 2px black;
+  font-size: 4em;
+}
+.newsletter-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px auto;
+}
+
+.newsletter-form button {
+  background-color: #BB3E03;
+  box-shadow: 3px 3px #888888;
+}
+
+.index-call-to-action {
+background-image: url("../images/rafting58_600.jpg"),  url("../images/rafting33_600.jpg");
+background-position: left bottom, right top;
+background-repeat: none;
+background-size: cover;
+width: 80%;
+height: 200px;
+margin: auto;
+display: flex;
+flex-direction: column;
+}
+
+.index-call-to-action h2 {
+  text-align: center;
+  background-color: #E9D8A6;
+}
+
+.index-call-to-action a {
+  margin: auto;
+  background-color: #BB3E03;
+  padding: 20px;
+  border-radius: 5px;
+  border: 1px solid black;
+  box-shadow: 5px 5px #888888;
+  text-decoration: none;
+  color: #f2ebdf;
+}
+
+.index_grid {
+  display: grid;
+  width: 100%;
+  grid-template-columns: 1fr 2fr 1fr 2fr 1fr;
+  grid-template-rows: 1fr 3fr 2fr;
+}
+.index_grid h2 {
+  grid-column-start: 1;
+  grid-column-end: 6;
+  grid-row-start: 1;
+  grid-row-end: 2;
+  text-align: center;
+}
+
+.index_grid img {
+  width: 100%;
+  height: auto;
+}
+
+.index_grid p {
+  grid-column-start: 1;
+  grid-column-end: 6;
+  grid-row-start: 3;
+  grid-row-end: 4;
+  text-align: center;
+}
+.index_grid .grid-img-1 {
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 2;
+  grid-row-end: 3
+}
+
+.index_grid .grid-img-2 {
+  grid-column-start: 4;
+  grid-column-end: 5;
+  grid-row-start: 2;
+  grid-row-end: 3
 }
