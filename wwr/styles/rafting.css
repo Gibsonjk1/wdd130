@@ -334,7 +334,7 @@ tr:nth-child(even) {
 .index_head {
   background-image: url("../images/RaftingHeadIMG.jpg");
   background-position: center;
-  background-repeat: none;
+  background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
   height: 200px;
@@ -363,7 +363,7 @@ tr:nth-child(even) {
 .index-call-to-action {
 background-image: url("../images/rafting58_600.jpg"),  url("../images/rafting33_600.jpg");
 background-position: left bottom, right top;
-background-repeat: none;
+background-repeat: no-repeat;
 background-size: cover;
 width: 80%;
 height: 200px;
